@@ -1,0 +1,72 @@
+@font-face {
+  font-family: wallblog;
+  src: url('../fonts/wall_of_blogs.ttf');
+}
+.blogwall{
+
+font-family: wallblog;
+
+}
+
+h1 {
+        text-align: center;
+        font: Regular 60px/24px Azonix;
+        letter-spacing: 0px;
+        color: #F1F9FF;
+        opacity: 1;
+        text-align:center !important;
+    }
+
+.background {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: #141414 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+.blog-wall-flower {
+
+        width: 100%;
+        padding: 10px;
+        background-color: aqua;
+    }
+
+
+
+.card-title {
+        padding-left: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.918);
+        color: #03dac5e3;
+        height: 60px;
+        margin-top:0;
+    }
+  .card{
+  border: 0;
+  
+  }
+.card-text{
+	color: white;
+	-moz-hyphens:auto;
+	 -ms-hyphens:auto;
+	 -webkit-hyphens:auto;
+	 hyphens:auto;
+	 word-wrap:break-word;
+}
+.card-body{
+padding: 0;
+
+}
+ a{
+ 
+ color: white;
+ 
+ }
+ a:hover{
+ 
+ }
+ 
